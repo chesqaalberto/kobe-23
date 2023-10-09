@@ -1,0 +1,576 @@
+body {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    background: linear-gradient(#F2EBD7, #CEC9B7);
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 60px;
+    text-align: center;
+}
+
+p {
+    color: #444444;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* <---HOME---> */
+
+.main-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+#k-card {
+    max-width: 288px;
+    height: 288px;
+    background-image: url("images/mc1i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#o-card {
+    max-width: 288px;
+    height: 288px;
+    background-image: url("images/mc2i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b-card {
+    max-width: 288px;
+    height: 288px;
+    background-image: url("images/mc3i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#e-card {
+    max-width: 288px;
+    height: 288px;
+    background-image: url("images/mc4i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#k-card:hover {
+    background-image: url("images/mc1a.png");
+    transition: 0.2s ease-in-out;
+ }
+ 
+#o-card:hover {
+     background-image: url("images/mc2a.png");
+     transition: 0.2s ease-in-out;
+ }
+ 
+#b-card:hover {
+     background-image: url("images/mc3a.png");
+     transition: 0.2s ease-in-out;
+ }
+ 
+#e-card:hover {
+     background-image: url("images/mc4a.png");
+     transition: 0.2s ease-in-out;
+ }
+
+/* <---K PAGE---> */
+
+.home-button1 {
+    width: 55px;
+    margin-top: 200px;
+}
+
+.photoset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.photoset-col1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#ok1-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/ok1i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#ok2-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/ok2i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col2 {
+    display: block;
+    margin-left: 36px;
+}
+
+#ok3-card {
+    max-width: 361px;
+    height: 430px;
+    background-image: url("images/ok3i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#ok4-card {
+    margin-top: 36px;
+    max-width: 361px;
+    height: 191px;
+    background-image: url("images/ok4i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col3 {
+    display: block;
+    margin-left: 36px;
+}
+
+#la1-card {
+    max-width: 361px;
+    height: 430px;
+    background-image: url("images/la1i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#la2-card {
+    margin-top: 36px;
+    max-width: 361px;
+    height: 191px;
+    background-image: url("images/la2i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    margin-right: 88px;
+}
+
+#la3-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/la3i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#la4-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/la4i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#ok1-card:hover {
+     background-image: url("images/ok1.jpg");
+     transition: 0.2s ease-in-out;
+ }
+ 
+#ok2-card:hover {
+     background-image: url("images/ok2.jpg");
+     transition: 0.2s ease-in-out;
+ }
+
+#ok3-card:hover {
+     background-image: url("images/ok3.jpg");
+     transition: 0.2s ease-in-out;
+ }
+
+#ok4-card:hover {
+     background-image: url("images/ok4.jpg");
+     transition: 0.2s ease-in-out;
+ }
+
+#la1-card:hover {
+     background-image: url("images/la1.jpg");
+     transition: 0.2s ease-in-out;
+ }
+
+#la2-card:hover {
+     background-image: url("images/la2.jpg");
+     transition: 0.2s ease-in-out;
+ }
+ 
+ #la3-card:hover {
+     background-image: url("https://i.ibb.co/qrrZshn/la3.png");
+     transition: 0.2s ease-in-out;
+ }
+ 
+ #la4-card:hover {
+     background-image: url("images/la4.jpg");
+     transition: 0.2s ease-in-out;
+ }
+ 
+ /* <---O PAGE---> */
+ 
+ .home-button2 {
+    width: 55px;
+    margin-top: 330px;
+}
+
+.timeline {
+    display: flex;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.timeline-col1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#t1-card {
+    width: 283px;
+    height: 283px;
+    background-image: url("images/t1i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#t6-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t6i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.timeline-col2 {
+    display: block;
+    margin-left: 36px;
+}
+
+#t2-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t2i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#t7-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t7i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.timeline-col3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+}
+
+#t3-card {
+    width: 283px;
+    height: 283px;
+    background-image: url("images/t3i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#t8-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t8i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.timeline-col4 {
+    display: block;
+    margin-left: 36px;
+}
+
+#t4-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t4i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#t9-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t9i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.timeline-col5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    margin-right: 88px;
+}
+
+#t5-card {
+    width: 283px;
+    height: 283px;
+    background-image: url("images/t5i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#t10-card {
+    max-width: 283px;
+    height: 283px;
+    background-image: url("images/t10i.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#t1-card:hover {
+     background-image: url("https://i.ibb.co/wKKyFdC/t1.jpg");
+     transition: 0.2s ease-in-out;
+ }
+ 
+#t2-card:hover {
+     background-image: url("https://i.ibb.co/p3Hz20t/t2.jpg");
+     transition: 0.2s ease-in-out;
+ }
+ 
+#t3-card:hover {
+     background-image: url("images/t3.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t4-card:hover {
+     background-image: url("images/t4.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t5-card:hover {
+     background-image: url("images/t5.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t6-card:hover {
+     background-image: url("https://i.ibb.co/tJ5qQ0h/t6.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t7-card:hover {
+     background-image: url("images/t7.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t8-card:hover {
+     background-image: url("https://i.ibb.co/s3Z3BXz/t8.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t9-card:hover {
+     background-image: url("https://i.ibb.co/SNvVbQ8/t9.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+#t10-card:hover {
+     background-image: url("images/t10.jpg");
+     transition: 0.5s ease-in-out;
+ }
+ 
+/* <---B PAGE---> */
+
+.home-button3 {
+    width: 55px;
+    margin-top: 330px;
+}
+
+#message {
+    max-width: 1330px;
+    height: 665px;
+    background-image: url("/images/message.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+/* <---E PAGE---> */
+
+.home-button4 {
+    width: 55px;
+    margin-top: 330px;
+}
+
+.photoset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.photoset-col1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#eat1-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/eat1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#eat2-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/eat2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col2 {
+    display: block;
+    margin-left: 36px;
+}
+
+#eat3-card {
+    max-width: 361px;
+    height: 430px;
+    background-image: url("images/eat3.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#eat4-card {
+    margin-top: 36px;
+    max-width: 361px;
+    height: 191px;
+    background-image: url("images/eat4.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col3 {
+    display: block;
+    margin-left: 36px;
+}
+
+#eat5-card {
+    max-width: 361px;
+    height: 430px;
+    background-image: url("images/eat5.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#eat6-card {
+    margin-top: 36px;
+    max-width: 361px;
+    height: 191px;
+    background-image: url("images/eat6.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+.photoset-col4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    margin-right: 88px;
+}
+
+#eat7-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/eat7.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+    margin-bottom: 36px;
+}
+
+#eat8-card {
+    max-width: 361px;
+    height: 311px;
+    background-image: url("images/eat8.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px gray;
+}
+
+#footer {
+    margin-top: 600px;
+    color: white;
+}
